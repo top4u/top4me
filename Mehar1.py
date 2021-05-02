@@ -3,12 +3,12 @@ TGREEN =  '\033[32m' # Green Text
 TBOLD =  '\033[1m' # BOLD Text
 TBACKRED =  '\033[41m' # BACKGROUND Text
 
-print(TRED + " COPY ALL CONTENT FROM BOX BELOW")
-print(TRED + " OPEN NEW NOTEBOOK")
-print(TRED +  " PASTE COPIED CONTENT & FOLLOW INSTRUCTIONS")
+print(TRED + " COPY ALL CONTENT FROM BOX BELOW/n")
+print(TRED + " OPEN NEW NOTEBOOK/n")
+print(TRED +  " PASTE COPIED CONTENT & FOLLOW INSTRUCTIONS/n")
 
 
-print(TRED,TBOLD + "---------------------Copy from Here to end-----------------------------------")
+print(TRED,TBOLD + "---------------------Copy from Here to end-----------------------------------/n")
 
 
 import urllib.request
