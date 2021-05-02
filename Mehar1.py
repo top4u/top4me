@@ -1,8 +1,7 @@
 import urllib
-url = "https://raw.githubusercontent.com/top4u/top4me/main/test.txt"
-f = urllib.urlopen(url)
-print f.read()
-txt = "test.txt"
-file1 = open(txt, "r")
-filecontent = file1.read()
-print(filecontent)
+import request
+import urllib.request
+
+with urllib.request.urlopen("https://raw.githubusercontent.com/top4u/top4me/main/test.txt") as url:
+s = url.read()
+print(s)
