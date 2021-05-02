@@ -8,7 +8,7 @@ print(TRED + " OPEN NEW NOTEBOOK")
 print(TRED +  " PASTE COPIED CONTENT & FOLLOW INSTRUCTIONS")
 
 
-print(TBACKRED + "---------------------Copy from Here to end-----------------------------------")
+print(TRED,TBOLD + "---------------------Copy from Here to end-----------------------------------")
 
 
 import urllib.request
