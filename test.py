@@ -286,9 +286,11 @@ def setupVNC(ngrok_region = None, check_gpu_available = True):
   clear_output()
   _check_gpu_available()
   print(msg)
-
+   wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   sudo dpkg --install google-chrome-stable_current_amd64.deb
+   sudo add-apt-repository ppa:obsproject/obs-studio -y
 def apps():
-  
+
   clear_output()
   my_apt = _MyApt()
   my_apt.installPkg("obs-studio", "vlc",  "firefox", "xarchiver", "xfce4", "xfce4-goodies")
