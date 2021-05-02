@@ -237,9 +237,10 @@ no-x11-tcp-connections
   vncrun_py = tempfile.gettempdir() / pathlib.Path("vncrun.py")
   vncrun_py.write_text("""\
 import subprocess, secrets, pathlib
-
+turbovncurl = "https://liquidtelecom.dl.sourceforge.net/project/turbovnc/2.2.6/TurboVNC-2.2.6-x64.exe"
 vnc_passwd = "Hashir"[:6]
 vnc_viewonly_passwd = "654321"[:6]
+print(turbovncurl)
 print("✂️"*24)
 print("VNC password: {}".format(vnc_passwd))
 print("VNC view only password: {}".format(vnc_viewonly_passwd))
