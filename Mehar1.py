@@ -3,7 +3,7 @@ print(" OPEN NEW NOTEBOOK")
 print( " PASTE COPIED CONTENT & FOLLOW INSTRUCTIONS")
 
 
-print( "---------------------'\033[1mCopy from Here to end'-----------------------------------")
+print( "---------------------'\033[1mCopy from Here to end'-----------------------------------"/n)
 
 
 import urllib.request
