@@ -1,10 +1,10 @@
 print(" COPY ALL CONTENT FROM BOX BELOW")
 print(" OPEN NEW NOTEBOOK")
 print(" PASTE COPIED CONTENT & FOLLOW INSTRUCTIONS")
+TGREEN =  '\033[32m' # Green Text
 
-print("---------------------Copy from Here to end-----------------------------------")
-pip install colorama
-from colorama import Fore, Back, Style
+print(TGREEN + "---------------------Copy from Here to end-----------------------------------")
+
 
 print(Fore.RED + 'some red text')
 
