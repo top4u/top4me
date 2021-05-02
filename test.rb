@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 #@title Start GUI Mehar
 import wget
 import apt, apt.debfile
