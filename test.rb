@@ -1,6 +1,4 @@
-#!/usr/bin/env ruby
 #@title Start GUI Mehar
-import wget
 import apt, apt.debfile
 import pathlib, stat, shutil, urllib.request, subprocess, getpass, time, tempfile
 import secrets, json, re
