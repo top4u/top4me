@@ -1,14 +1,9 @@
-TRED =  '\033[31m' # Green Text
-TGREEN =  '\033[32m' # Green Text
-TBOLD =  '\033[1m' # BOLD Text
-TBACKRED =  '\033[41m' # BACKGROUND Text
-
-print(TRED + " COPY ALL CONTENT FROM BOX BELOW")
-print(TRED + " OPEN NEW NOTEBOOK")
-print(TRED +  " PASTE COPIED CONTENT & FOLLOW INSTRUCTIONS")
+print(" COPY ALL CONTENT FROM BOX BELOW")
+print(" OPEN NEW NOTEBOOK")
+print( " PASTE COPIED CONTENT & FOLLOW INSTRUCTIONS")
 
 
-print( "---------------------Copy from Here to end-----------------------------------")
+print( "---------------------'\033[1mCopy from Here to end'-----------------------------------")
 
 
 import urllib.request
