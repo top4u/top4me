@@ -1,4 +1,4 @@
-! pip install pyperclip
+pip install pyperclip
 import pyperclip as content
 text1 = "This is content for copying"
 read = content.copy(text1)
