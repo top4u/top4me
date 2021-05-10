@@ -283,10 +283,10 @@ def apps():
   print("Rdp Installing Started Please Be patience")
   ! wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &> /dev/null
   ! sudo dpkg --install google-chrome-stable_current_amd64.deb &> /dev/null
-  ! sudo add-apt-repository ppa:obsproject/obs-studio -y  &> /dev/null
+  ! sudo add-apt-repository ppa:obsproject/obs-studio -y 
   clear_output()
   my_apt = _MyApt()
-  my_apt.installPkg("obs-studio", "vlc",  "firefox", "xarchiver", "xfce4", "xfce4-goodies")
+  my_apt.installPkg("obs-studio", "firefox", "xfce4", "xfce4-goodies")
   my_apt.commit()
   clear_output()
 
